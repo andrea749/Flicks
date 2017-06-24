@@ -17,6 +17,7 @@ public class Movie {
     String backdropPath;
     Double voteAverage;
     Integer id;
+    String imageurl;
 
     //empty constructor required for Parceler
     public Movie() {}
@@ -29,6 +30,14 @@ public class Movie {
         backdropPath = object.getString("backdrop_path");
         voteAverage = object.getDouble("vote_average");
         id = object.getInt("id");
+    }
+
+    public String getImageurl() {
+        return imageurl;
+    }
+
+    public void setImageurl(String imageurl) {
+        this.imageurl = imageurl;
     }
 
     public String getTitle() {

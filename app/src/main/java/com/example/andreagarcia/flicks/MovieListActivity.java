@@ -25,7 +25,7 @@ public class MovieListActivity extends AppCompatActivity {
 
     //constants
     //base URL for API
-    public final static String API_BASE_URL = "https://api.themoviedb.org/3";
+    public final String API_BASE_URL = "https://api.themoviedb.org/3";
     //parameter name for API key
     public final static String API_KEY_PARAM = "api_key";
     // tag for logging from this activity
